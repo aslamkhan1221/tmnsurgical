@@ -8,10 +8,10 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <main>
+      <main style={{marginBottom: '150px'}}>
         <Contact />
-      </main>
-      <Footer />
+      </main><br />
+      <Footer/>
     </div>
   );
 }

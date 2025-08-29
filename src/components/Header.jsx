@@ -1,12 +1,14 @@
 
+
 import React from 'react';
 import './Header.css';
+import logo from '../TMN-logo.png';
 
 const Header = () => {
   return (
     <header className="header">
       <div className="logo">
-        <a href="/">Logo</a>
+        <a href="/"><img src={logo} alt="TMN Logo" width={'200px'}/></a>
       </div>
       <nav className="nav">
         <ul>
@@ -20,3 +22,4 @@ const Header = () => {
 };
 
 export default Header;
+
